@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Website Performance Check",
+  "description": "This extension will check various performance metrics for a web page.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
